@@ -6,5 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+  <ProjectReference Include="../Labb2.BussinessLogic/Labb2.BussinessLogic.csproj" />
+
+  <None Include="../LevelData/Level1.txt">
+    <Link>Level1.txt</Link>
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
 
 </Project>
